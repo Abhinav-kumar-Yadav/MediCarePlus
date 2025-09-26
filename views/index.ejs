@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediCare Plus - Your Trusted Healthcare Partner</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <%- include("layouts/header-mobilenav.ejs") %>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <%- include("layouts/hero.ejs") %>
+
+        <!-- Categories Section -->
+        <section class="categories">
+            <div class="container">
+                <h2>Medicine Categories</h2>
+                <div class="categories-grid" id="categoriesGrid">
+                    <!-- Categories will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <%- include("layouts/productSection.ejs") %>
+
+        <!-- Services Section -->
+        <section class="services" id="health-products">
+            <div class="container">
+                <h2>Our Services</h2>
+                <div class="services-grid" id="servicesGrid">
+                    <!-- Services will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <%- include("layouts/about.ejs") %>
+
+        <!-- Contact Section -->
+        <%- include("layouts/contact.ejs") %>
+    </main>
+
+    <!-- Footer -->
+    <%- include("layouts/footer.ejs") %>
+
+    <!-- Modals -->
+    
+    <!-- Login Modal -->
+    <%- include("layouts/login.ejs") %>
+
+    <!-- Register Modal -->
+    <%- include("layouts/register.ejs") %>
+
+    <!-- Prescription Upload Modal -->
+    <%- include("layouts/prescriptionUploadModal.ejs") %>
+
+    <!-- Cart Modal -->
+    <%- include("layouts/cart.ejs") %>
+
+    <script src="/javascript/app.js"></script>
+</body>
+</html>

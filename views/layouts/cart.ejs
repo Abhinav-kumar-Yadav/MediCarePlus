@@ -1,0 +1,22 @@
+<div class="modal hidden" id="cartModal">
+        <div class="modal-content modal-lg">
+            <div class="modal-header">
+                <h3>Shopping Cart</h3>
+                <button class="modal-close" onclick="closeModal('cartModal')">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div id="cartItems">
+                    <!-- Cart items will be populated by JavaScript -->
+                </div>
+                <div class="cart-total">
+                    <div class="total-row">
+                        <span>Total: $<span id="cartTotal">0.00</span></span>
+                    </div>
+                </div>
+                <div class="cart-actions">
+                    <button class="btn btn--outline" onclick="closeModal('cartModal')">Continue Shopping</button>
+                    <button class="btn btn--primary" id="checkoutBtn">Proceed to Checkout</button>
+                </div>
+            </div>
+        </div>
+    </div>

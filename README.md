@@ -34,8 +34,6 @@ MediCarePlus/
 ├── package.json # Dependencies & scripts
 └── package-lock.json
 
-yaml
-Copy code
 
 ---
 
@@ -72,12 +70,6 @@ Command	Description
 npm start	Start the server in production mode
 npm run dev	Start the server in development mode (with nodemon)
 npm test	Run tests (if tests are configured)
-
-📸 Screenshots & Demo
-You can include screenshots or a link to a live demo here.
-
-
-Example: product listing
 
 🧩 API Endpoints (Sample)
 Below are a few example endpoints (assuming base URL is /api):
@@ -127,9 +119,4 @@ GitHub: Abhinav-kumar-Yadav
 Thank you for checking out MediCarePlus!
 If you find this project helpful or have suggestions, I’d love your feedback or a ⭐️ on the repo.
 
-pgsql
-Copy code
-
-If you like, I can also provide a Markdown preview or add badges (e.g. build status, license, coverage). Do you want me to further polish it (with visuals, badges)?
-::contentReference[oaicite:0]{index=0}
 

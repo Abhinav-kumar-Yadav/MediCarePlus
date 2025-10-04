@@ -4,7 +4,7 @@
 
 ---
 
-## 🚀 Features
+## 🚀 Features  
 
 - User registration, authentication & profile management  
 - Browse medicines and health products by category  
